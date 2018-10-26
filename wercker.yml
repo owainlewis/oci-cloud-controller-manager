@@ -50,7 +50,7 @@ publish-docker-image:
     - script:
         name: Set ENV vars
         code: |
-          export IMAGE="iad.ocir.io/spinnaker/cloud-provider-oci"
+          export IMAGE="iad.ocir.io/oracle/cloud-provider-oci"
           export VERSION=$(cat VERSION.txt)
           echo "${VERSION}"
 

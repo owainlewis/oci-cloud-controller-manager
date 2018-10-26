@@ -13,8 +13,7 @@
 # limitations under the License.
 
 PKG := github.com/oracle/oci-cloud-controller-manager
-IMAGE ?= iad.ocir.io/spinnaker/cloud-provider-oci
-
+IMAGE ?= iad.ocir.io/oracle/cloud-provider-oci
 
 BUILD := $(shell git describe --always --dirty)
 # allow overriding for release versions
